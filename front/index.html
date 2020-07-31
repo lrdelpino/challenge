@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Diseño web tipo blog - para practica</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Un Blog<b> Pro</b></h1>
+            </div>
+
+        </div>
+
+    </header>
+    <br>
+    <div class="container-content">
+        <article id="posts">
+            <div id="post">
+                <h2 id="title"></h2>
+                
+                <h3 id="text"></h3>
+                
+                <h4 id="date"></h4>
+                
+                <button id="borrar">Borrar</button>
+                <button id="editar">Editar</button>
+                <button id="nuevo" onclick="nuevo()">Nuevo</button>
+            </div>
+        </article>
+        <div class="container-aside">	
+            <aside>
+            </aside>
+        </div>
+    </div>
+
+    <div class="container-footer">	
+
+        <footer>
+            <div class="logo-footer">
+                <img src="" alt="">
+            </div>
+
+            <div class="redes-footer">
+                <a href="#"><i class="fab fa-facebook-f icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-google-plus-g icon-redes-footer"></i></a>
+                <a href="#"><i class="fab fa-instagram icon-redes-footer"></i></a>
+            </div>
+
+            <hr>
+            <h4>Un blog hecho en 3 dias con cariño y mucho</h4>
+
+        </footer>
+
+    </div>
+
+</div>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/script.js"></script>
+    <script>traer()</script>
+</body>
+</html>

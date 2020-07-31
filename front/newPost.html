@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <title>Diseño web tipo blog - para practica</title>
+
+    <script src="https://kit.fontawesome.com/41bcea2ae3.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    </head>
+    <body>
+        <header>
+
+            <div class="header-content">
+    
+                <div class="logo">
+                    <h1>Un Blog<b> Pro</b></h1>
+                </div>
+    
+            </div>
+    
+        </header>
+        <div>
+            <form onsubmit="return savePost(event)">
+                <input name="titulo" type="text" id="titulo" placeholder="Titulo" maxlength="100"  required autofocus/>
+                <br>
+                <input name="texto" type="text" id="texto" placeholder="Texto"  required />	
+                <input type="hidden" name="id" id="id"/>
+                <button type="submit">Guardar</button>
+            </form>
+        </div>
+
+
+        <script src="js/script.js"></script>
+        <script>newPost()</script>
+    </body>
+</html>
